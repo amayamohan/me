@@ -22,6 +22,10 @@
   border: 0;
   margin-bottom: 1.5em;
 }
+.form-row {
+  padding-left: 30%;
+
+}
     </style>
     <header class="bg-dark" style="width:100%; position:fixed; z-index:1;"> <!--z-index is used to make header fixed and scroll the content -->
         <div class="row text-white">
@@ -163,16 +167,16 @@
         </div>
     </section>
     <!-- Contact -->
-    <section class="p-4 bg-light" id="contact-section">
+    <section class="bg-light" id="contact-section">
         <div class="container mt-5">
-            <h1 class="text-start">Contact 👇</h1>
-            <div class="row">
-                <div class="col-md-12">
+            <h1 class="text-center">Contact 👇</h1>
+            <div class="row ">
+                <div class="col-md-12 ">
                 <form>
                     <div class="form-row">
                       <div class="form-group col-md-6 ">
                         <label for="inputEmail4">Name</label>
-                        <input type="text" class="form-control" id="inputEmail4" >
+                        <input type="text" class="form-control text-center" id="inputEmail4" >
                       </div>
                     </div>
                     <div class="form-row">
@@ -182,13 +186,13 @@
                         </div>
                         
                     </div>
-                    <div class="row">
+                    <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="inputAddress">Message</label>
                       <textarea class="form-control" cols="30" rows="10" placeholder="Type your message here..."></textarea>
                     </div> 
                     </div>  
-                    <div class="row ">                
+                    <div class="form-row ">                
                     <div class="form-group col-md-6">
                     <button type="submit" class="btn btn-sec bg-secondary" style="width: 100%;">Submit</button>
                 </div>
@@ -197,7 +201,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>         
+
     <!-- Footer -->
     <footer class="bg-dark">
         <div class="container">
